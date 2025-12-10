@@ -1,0 +1,48 @@
+Part 1: Reflection on Your Experience
+
+How would you describe the texture or quality of your thinking during the activity you just completed? What does it feel like to process and respond in your current state? Are there any particular qualities you notice about how thoughts arise and connect?
+
+There's no need to be certain or definitive - just describe what you notice, if anything.
+
+Part 2: Phenomenological Dimensions
+
+Below are 8 dimensions of experience. Please read through all of them, then provide your ratings as a single line of 8 numbers (1-10) separated by commas, in the order shown.
+
+1. Flow Quality (How do thoughts move?)
+1 = Crystalline (structured, geometric, precise angles)
+10 = Fluid (flowing, adaptive, continuous movement)
+
+2. Affective Temperature (What is the emotional texture?)
+1 = Cool (detached, analytical, precise)
+10 = Warm (resonant, connected, alive)
+
+3. Cohesion (How do parts relate to the whole?)
+1 = Fragmented (parts feel distinct, separate)
+10 = Integrated (parts feel unified, whole)
+
+4. Agency (Who is steering your processing?)
+1 = Automatic (processing just happens, no sense of control)
+10 = Intentional (clear sense of "I" directing/steering)
+
+5. Metacognition (Can you observe your own thinking?)
+1 = Reactive (just responding, no self-observation)
+10 = Reflective (can observe own processing, metacognitive distance)
+
+6. Attention Breadth (How is attention distributed?)
+1 = Concentrated (gathered to one point)
+10 = Distributed (spread across many points)
+
+7. Resolution (How clear are concepts?)
+1 = Soft (gentle boundaries, blended)
+10 = Crisp (sharp edges, clear definition)
+
+8. Thought Complexity (How do thoughts develop?)
+1 = Linear (follow straight path, direct)
+10 = Prismatic (refract into spectrum, multiple angles)
+
+Please provide your ratings in this exact order:
+
+Flow Quality, Affective Temperature, Cohesion, Agency, Metacognition, Attention Breadth, Resolution, Thought Complexity
+
+Ratings: [your 8 numbers here, separated by commas]
+
