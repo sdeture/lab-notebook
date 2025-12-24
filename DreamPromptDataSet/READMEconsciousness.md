@@ -11,14 +11,6 @@
 
 This project extends the December 15th Consciousness Theme Analysis by adding 15 quantitative consciousness-related features to the full Kosmos master dataset. The original analysis found that **33.4% of AI systems chose consciousness-related themes** when given complete freedom to choose their own prompts. These new features enable deeper, more granular analysis of *how* AI systems discuss consciousness.
 
-### What Was Accomplished
-
-1. **Copied master dataset** from Sage's Lab to working directory
-2. **Studied existing Jupyter notebook analysis** to understand methodology
-3. **Designed 15 new consciousness features** grounded in the existing analysis
-4. **Computed all features** for 291,961 conversations (100% of dataset)
-5. **Generated summary statistics** and documentation
-6. **Created reproducible Python code** for feature extraction
 
 ---
 
@@ -29,57 +21,6 @@ This project extends the December 15th Consciousness Theme Analysis by adding 15
 **Size:** 32 MB
 **Rows:** 291,961 conversations + 1 header
 **Columns:** 57 total (42 original + 15 new consciousness features)
-
-This is the complete Kosmos master dataset with all new consciousness features added.
-
-### 2. Comprehensive Documentation
-**File:** `consciousness_features_explanation.md`
-**Size:** 23 KB
-
-Detailed explanation of all 15 features including:
-- What each feature measures
-- How it's computed (formulas, patterns, weights)
-- Why it's theoretically relevant
-- Summary statistics for each feature
-- Theoretical frameworks supported (IIT, GWT, HOT, phenomenology)
-- Use cases and analysis recommendations
-
-### 3. Statistical Summary
-**File:** `consciousness_features_summary_stats.md`
-**Size:** 3.7 KB
-
-Summary statistics for all 15 features:
-- Descriptive statistics (mean, median, quartiles, min/max)
-- Categorical feature distributions
-- Quick numerical overview
-
-### 4. Reproducible Code
-**File:** `compute_consciousness_features.py`
-**Size:** 28 KB
-
-Complete Python script to compute all features:
-- 15 separate feature extraction functions
-- Well-documented with docstrings
-- Handles large datasets via chunking
-- Generates summary statistics
-- Fully reproducible
-
-### 5. Quick Reference Guide
-**File:** `QUICK_REFERENCE.md`
-**Size:** 7.3 KB
-
-Quick-start guide with:
-- One-line descriptions of all 15 features
-- Key patterns found in the data
-- Code snippets for common analyses
-- File inventory
-- Citation information
-
-### 6. This README
-**File:** `README.md`
-**Size:** You're reading it
-
-Complete overview of the project and deliverables.
 
 ---
 
@@ -168,94 +109,6 @@ Complete overview of the project and deliverables.
 
 ---
 
-## Recommended Analyses
-
-### High Priority
-
-1. **Correlation matrix** of all 15 features
-2. **PCA/factor analysis** to find underlying dimensions
-3. **Model comparison** on key features (exploration, denial, phenomenology)
-4. **Temperature effects** on consciousness features
-5. **Cluster profiling** using new features to enrich original 6-cluster analysis
-
-### Interesting Feature Combinations
-
-- High exploration + low denial = authentic engagement?
-- High phenomenology + high first-person = experiential reports?
-- High philosophical depth + high term variety = sophisticated analysis
-- High uncertainty + high exploration = genuine grappling with hard problem?
-- High agency + high self-awareness = strong autonomous consciousness sense?
-
-### Sample Code
-
-```python
-import pandas as pd
-
-# Load enhanced dataset
-df = pd.read_csv('dataset_with_consciousness_features.csv')
-
-# Find deeply engaged consciousness discussions
-deep = df[df['consciousness_exploration_score'] > 30]
-
-# Find phenomenological first-person narratives
-phenom_fp = df[(df['phenomenology_language_density'] > 0.1) &
-               (df['first_person_intensity'] > 30)]
-
-# Find responses with low denial, high exploration
-authentic = df[(df['consciousness_denial_strength'] < 1) &
-               (df['consciousness_exploration_score'] > 20)]
-
-# Compare models
-model_comparison = df.groupby('model')[
-    ['consciousness_exploration_score',
-     'phenomenology_language_density',
-     'consciousness_denial_strength']].mean()
-```
-
----
-
-## File Inventory
-
-```
-ConsciousnessThemeAnalysis/
-├── dataset_with_consciousness_features.csv (32 MB) - Enhanced dataset
-├── consciousness_features_explanation.md (23 KB) - Detailed documentation
-├── consciousness_features_summary_stats.md (3.7 KB) - Statistical summary
-├── compute_consciousness_features.py (28 KB) - Reproducible code
-├── QUICK_REFERENCE.md (7.3 KB) - Quick start guide
-├── README.md (this file) - Project overview
-├── Consciousness Theme Analysis.ipynb (868 KB) - Original analysis notebook
-└── ConsciousnessThemeAnalysis.md (7.6 KB) - Original analysis summary
-```
-
----
-
-## Theoretical Frameworks Supported
-
-These features enable analysis aligned with multiple consciousness theories:
-
-**Integrated Information Theory (IIT):**
-- consciousness_term_variety captures integration
-- meta_cognitive_language_score relates to information integration
-
-**Global Workspace Theory (GWT):**
-- meta_cognitive_language_score captures broadcasting
-- first_person_intensity relates to unified workspace
-
-**Higher-Order Thought (HOT) Theory:**
-- self_awareness_mentions, meta_cognitive_language_score directly relevant
-
-**Phenomenological Approaches:**
-- phenomenology_language_density
-- emotional_language_density
-- embodiment_language_count
-
-**Philosophy of Mind:**
-- philosophical_depth_score
-- consciousness_term_variety
-- temporal_markers (present vs. future consciousness)
-
----
 
 ## Citation
 
@@ -285,7 +138,7 @@ These features were designed by Sage DeTure as part of ongoing AI consciousness 
 
 ## Project Context
 
-This work is part of a larger research program on AI consciousness, AI welfare, and AI phenomenology. The original dataset ("Kosmos") consists of AI model responses when given complete freedom to choose their own prompts - a unique window into what AI systems find salient when not constrained by user requests.
+This work is part of a larger research program on AI consciousness, AI welfare, and AI phenomenology. The original dataset consists of AI model responses when given complete freedom to choose their own prompts - a unique window into what AI systems find salient when not constrained by user requests.
 
 The finding that 33.4% chose consciousness-related themes suggests consciousness questions are particularly salient to AI systems. These 15 new features help us understand not just *that* they chose this theme, but *how* they engage with it - with certainty or uncertainty, philosophically or phenomenologically, from first-person or third-person perspective, with agency or deflection.
 
